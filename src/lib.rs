@@ -3,7 +3,7 @@
 //! USB Human Interface Device (HID) support for microcontrollers based on `usb-device`.
 //!
 //! This crate provides `Hid` structure for use with `usb-device` crate
-//! as described by [https://www.usb.org/hid].
+//! as described by [usb.org](https://www.usb.org/hid).
 //!
 //! See [usbd-hid-device-example](https://github.com/agalakhov/usbd-hid-device-example) for usage example.
 
@@ -70,6 +70,6 @@ pub trait HidReport: AsRef<[u8]> {
     /// HID report descriptor as byte array.
     ///
     /// The complete manual for HID report descriptors can be found at
-    /// [https://www.usb.org/document-library/hid-usage-tables-112]
+    /// [usb.org website](https://www.usb.org/document-library/hid-usage-tables-112).
     const DESCRIPTOR: &'static [u8];
 }

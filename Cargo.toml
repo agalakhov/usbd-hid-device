@@ -8,7 +8,7 @@ repository = "https://github.com/agalakhov/usbd-hid-device"
 edition = "2018"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 embedded-hal = "0.2.3"
